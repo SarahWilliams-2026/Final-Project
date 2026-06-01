@@ -9,6 +9,9 @@
 nav {
     padding: 32px 0;
 }
+.purple {
+    color: #6415ff;
+}
 
 .nav__row {
     display: flex;
@@ -60,4 +63,30 @@ nav {
     border-radius: 9999px;
     color: white;
     background-color: #6415ff;
+}
+
+
+/* 
+
+HEADER 
+
+*/
+
+h1 {
+    font-size: 30px;
+}
+.header__row {
+    flex-direction: column;
+    align-items: center;
+}
+
+.header__description {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header__description--para {
+    text-align: center;
 }
