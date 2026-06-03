@@ -9,9 +9,18 @@
 nav {
     padding: 32px 0;
 }
+
 .purple {
     color: #6415ff;
 }
+
+
+/* 
+
+NAV BAR 
+
+*/
+
 
 .nav__row {
     display: flex;
@@ -75,6 +84,11 @@ HEADER
 h1 {
     font-size: 30px;
 }
+
+.header__container {
+    padding: 96px 0;
+}
+
 .header__row {
     flex-direction: column;
     align-items: center;
@@ -89,4 +103,77 @@ h1 {
 
 .header__description--para {
     text-align: center;
+}
+
+.header__email {
+    width: 100%;
+    max-width: 448px;
+    height: 68px;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header__email--input {
+    position: absolute;
+    border-radius: 500px;
+    font-size: 16px;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    width: 100%;
+    color: rgb(36, 62, 99);
+    border: 2px solid rgb(229, 231, 235);
+}
+
+.header__email--btn {
+    z-index: 2;
+    margin: 8px;
+    height: calc(100% - 16px);
+    border-radius: 500px;
+    width: 160px;
+    border: none;
+    background-color: #6415ff;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.header__customers--para {
+
+}
+
+.header__customers {
+    margin-top: 16px;
+    padding-right: 128px;
+    opacity: 0.5;
+}
+
+.header__img--wrapper {
+    flex-direction: column;
+}
+
+@media (max-width: 1024px) {
+    .header__customers--title, .header__img--wrapper {
+        margin-top: 48px;
+    }
+}
+
+
+/* 
+
+FEATURES  
+
+*/
+
+
+.features {
+    padding: 80px 0;
+}
+
+.feature__wrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
