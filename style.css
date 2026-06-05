@@ -14,13 +14,11 @@ nav {
   color: #6415ff;
 }
 
-
 /* 
 
 NAV BAR 
 
 */
-
 
 .nav__row {
   display: flex;
@@ -74,7 +72,6 @@ NAV BAR
   background-color: #6415ff;
 }
 
-
 /* 
 
 
@@ -82,7 +79,6 @@ HEADER
 
 
 */
-
 
 .row {
   display: flex;
@@ -163,8 +159,8 @@ h1 {
 
 .header__customers {
   margin-top: 16px;
-  padding-right: 128px;
   opacity: 0.5;
+  width: 100%;
 }
 
 .header__img--wrapper {
@@ -172,7 +168,7 @@ h1 {
   width: 50%;
 }
 
-.header__img--wrapper, img {
+figure.header__img--wrapper > img {
   width: 100%;
 }
 
@@ -213,12 +209,11 @@ FEATURES
   text-transform: uppercase;
 }
 
-
 .feature__para {
-    margin-top: 16px;
-    font-size: 16px;
-    max-width: calc(634px / 3);
-    color: rgb(124, 139, 161);
-    line-height: 2;
-    font-weight: 500;
+  margin-top: 16px;
+  font-size: 16px;
+  max-width: calc(634px / 3);
+  color: rgb(124, 139, 161);
+  line-height: 2;
+  font-weight: 500;
 }
