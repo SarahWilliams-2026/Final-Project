@@ -77,9 +77,12 @@ NAV BAR
 
 /* 
 
+
 HEADER 
 
+
 */
+
 
 h1 {
     font-size: 30px;
@@ -140,9 +143,12 @@ h1 {
     font-size: 16px;
 }
 
-.header__customers--para {
-
-}
+.header__customers--title {
+    margin-top: 80px;
+    color: #a0aec0;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.6;
 
 .header__customers {
     margin-top: 16px;
@@ -176,4 +182,25 @@ FEATURES
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+.feature__title {
+    font-size: 16px;
+    color: #6415ff;
+    letter-spacing: 1.6px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.features__img--wrapper {
+    margin-top: 16px;
+    font-size: 16px;
+    max-width: calc(634px / 3);
+    color: rgb(124, 139, 161);
+    line-height: 2;
+    font-weight: 500;
 }
