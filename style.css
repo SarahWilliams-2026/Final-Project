@@ -470,6 +470,7 @@ PRICING
     flex-direction: column;
     width: 100%;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .plan {
@@ -537,6 +538,33 @@ PRICING
     padding: 2rem;
 }
 
+.plan:nth-child(3) .plan__stripe, .plan:nth-child(3) .plan__button {
+    color: #f7fafc;
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+}
+
+@media (max-width: 1280px) {
+    .plan__button {
+        max-width: none;
+    }
+}
+
+.plan__button {
+    border-radius: 0.25rem;
+    background-color: rgb(100 21 255);
+    padding: 0.75rem 2rem;
+    font-weight: 700;
+    color: rgb(247 250 252);
+    transition: all 300ms ease;
+    width: 100%;
+    border-radius: 9999px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
 .plan:nth-child(1) .plan__middle, .plan:nth-child(3) .plan__middle {
     border-top: 2px solid rgb(229, 231, 235);
     border-bottom: 2px solid rgb(229, 231, 235);
@@ -596,3 +624,67 @@ PRICING
     letter-spacing: 0.1em;
 }
 
+.plan:nth-child(2) {
+    background: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+}
+
+.plan:nth-child(2) .plan__name, .plan:nth-child(2) .plan__price, .plan:nth-child(2) .plan__target, .plan:nth-child(2) .plan__duration, .plan:nth-child(2) .plan__feature {
+    color: #f7fafc;
+}
+
+.plan:nth-child(3) .plan__stripe, .plan:nth-child(3) .plan__button {
+    color: #f7fafc;
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+}
+
+.plan:nth-child(3) .plan__stripe, .plan:nth-child(3) .plan__button {
+    color: #f7fafc;
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+}
+
+.plans {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+/* 
+
+TESTIMONIALS 
+
+*/
+
+.fa-star {
+    --fa: "\f005";
+}
+
+.testimonial {
+    margin-top: 40px;
+}
+
+.testimonial__rating {
+    color: rgba(246, 173, 85);
+    margin-right: 2px;
+    margin-top: 4px;
+}
+
+
+
+/* SMALL PHONES AND TABLETS */
+
+/* LAPTOPS */
+
+@media (max-width: 1280px) {
+    .testimonials__img {
+        width: 40%;
+    }
+}
+
+@media (max-width: 1280px) {
+    .testimonials__description {
+        width: calc(100% - 40%);
+    }
+}
