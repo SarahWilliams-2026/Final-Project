@@ -841,7 +841,6 @@ FOOTER
 footer {
     padding: 96px 32px;
     background-color: rgb(100, 21, 255);
-    margin-bottom: -32px;
     position: relative;
     overflow: hidden;
 }
@@ -951,7 +950,7 @@ footer {
 .footer__socials {
     display: flex;
     align-items: center;
-    margin-left: -16px;
+    margin-left: 16px;
 }
 
 .footer__social--link {
@@ -965,6 +964,13 @@ footer {
     cursor: pointer;
     transition: all 300ms ease;
 }
+
+svg:not(:root) {
+    overflow-clip-margin: content-box;
+    overflow: hidden;
+}
+
+
 
 
 
