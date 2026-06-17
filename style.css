@@ -19,6 +19,11 @@ button {
     border: none;
 }
 
+p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
 .btn {
     background-color: #6415ff;
     padding: 12px 32px;
@@ -160,15 +165,16 @@ HEADER
 }
 
 .header__description {
-  text-align: center;
+  text-align: left;
   display: flex;
-  width: 40%;
+  width: 50%;
   flex-direction: column;
-  align-items: center;
+  align-items: start;
+  gap: 16px;
 }
 
 .header__description--para {
-  text-align: center;
+  text-align: left;
 }
 
 .header__email {
@@ -191,6 +197,8 @@ HEADER
   width: 100%;
   color: rgb(36, 62, 99);
   border: 2px solid rgb(229, 231, 235);
+  padding-left: 24px;
+
 }
 
 .header__email--btn {
@@ -212,6 +220,7 @@ HEADER
   font-size: 12px;
   font-weight: 700;
   letter-spacing: 0.6;
+  align-items: left;
 }
 
 .header__customers {
@@ -222,12 +231,11 @@ HEADER
 
 .header__img {
     width: 100%;
-    max-width: 768px;
 }
 
 .header__img--wrapper {
   flex-direction: column;
-  width: 50%;
+  width: 55%;
 }
 
 figure .header__img--wrapper > img {
