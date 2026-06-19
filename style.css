@@ -870,6 +870,10 @@ footer {
     overflow: hidden;
 }
 
+.footer__row {
+    flex-direction: column;
+}
+
 .footer__blob--1 {
     position: absolute;
     top: 0;
@@ -947,6 +951,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
 
 .footer__logo {
