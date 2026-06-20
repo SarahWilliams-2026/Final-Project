@@ -737,9 +737,6 @@ TESTIMONIALS
 
 */
 
-.fa-star {
-    --fa: "\f005";
-}
 
 #testimonials .row {
     margin-left: auto;
@@ -863,38 +860,6 @@ START
 
 */
 
-.start__blob--2 {
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    height: 20rem;
-    width: 20rem;
-    transform: translate(5rem, -16rem);
-    color: rgb(80 17 204);
-    opacity: 0.5;
-}
-
-.start__blob--1 {
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
-    height: 20rem;
-    width: 20rem;
-    transform: translate(-50%);
-    color: rgb(80 17 204);
-    opacity: 0.5;
-}
-
-.start__blob--2 {
-    position: absolute;
-    top: 10%;
-    right: 10%;
-    height: 20rem;
-    width: 20rem;
-    transform: translate(50%, -50%);
-    color: rgb(80 17 204);
-    opacity: 0.5;
-}
 
 .start__container {
     padding: 96px 0;
