@@ -754,7 +754,7 @@ TESTIMONIALS
     margin-top: 40px;
 }
 
-.testimonial__img {
+.testimonials__img {
   width: 100%;
   height: 100%;
   object-fit: cover;
